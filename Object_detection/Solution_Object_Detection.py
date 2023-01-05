@@ -45,3 +45,12 @@ while True:
 #หลังเลิกใช้แล้วเคลียร์memory
 cap.release()
 cv2.destroyAllWindows()
+
+
+# Dataset ที่ใช้ในการทำ Object_Detection คือ 
+# The PASCAL Visual Object Classes (VOC) challenge
+# -standard dataset of images and annotation
+# -standard evaluation
+# -มี pretrained weight(weight ที่ train มาแล้ว) คำนวนมาให้แลัว
+
+# อีก Dataset สามารถใช้ได้ คือ COCO(Common Objects in Context) 

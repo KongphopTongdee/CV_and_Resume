@@ -1,6 +1,6 @@
-import speech_recognition as sr
-from gtts import gTTS
-from playsound import playsound
+import speech_recognition as sr     # Library for convert speech to text
+from gtts import gTTS               # Library for convert text to speech(woman voice)
+from playsound import playsound     # Library for playing sound
 from datetime import datetime
 
 r = sr.Recognizer()     # ตัวเริ่มต้น
@@ -26,3 +26,9 @@ with sr.Microphone() as source:     # Microphone สำหรับ source บ�
     tts = gTTS(text, lang="en")
     tts.save("answer.mp3")
     playsound("answer.mp3")
+
+
+
+# There 2 step 
+# 1. speech to text
+# 2. text to speech
