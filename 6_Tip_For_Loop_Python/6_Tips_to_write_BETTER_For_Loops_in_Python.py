@@ -39,11 +39,11 @@ for val1, val2 in zip(a, b):
     print(val1, val2)
     
 ########### try this #############
-a = [1, 2, 3, 4]
-b = ["a", "b", "c"]
+# a = [1, 2, 3, 4]
+# b = ["a", "b", "c"]
 
-for val1, val2 in zip(a, b, strict=True):
-    print(val1, val2)
+# for val1, val2 in zip(a, b, strict=True):
+#     print(val1, val2)
     
 # 4) Think lazy! Use a generator
 events = [("learn", 5), ("learn", 10), ("relaxed", 20)]
