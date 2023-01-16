@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=KRZIV1RBHSI
+
+Steps for Creating Coin Segmentation Basic Theory
+1.ส่วนแยกวัตถุกับพื้นหลังออกจากกัน
+2.การ convert ภาพสีเป็น binary หรือ gray scale
+3.การใช้ตัว Thesholding ในรูปแบบของ otsu method
+4.การวิเคราะห์รูปภาพและรูปทรงวงกลมในภาพ
